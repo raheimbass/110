@@ -1,0 +1,60 @@
+.cart h1{
+    color: blue;
+}
+
+.cart .prof-cart {
+    border: 1px solid #cacaca;
+    padding: 10px 20 px;
+    background-color: white;
+    margin: 10px;
+}
+
+.card .prod-cart h5{
+    flex: auto;
+}
+
+.card .prod-cart h6{
+    width: 70px;
+}
+
+.card .prod-card img {
+    width: 85px;
+}
+
+.cart .parent{
+    display: flex;
+}
+
+.cart .prods{
+    flex: 3;
+}
+
+.cart .side-menu{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    border: 1px solid white;
+    border-radius: 4 px;
+    padding:10 px;
+    margin: 5px 30px 10px 20px;
+}
+
+.product .btn-add {
+    animation-name: expandContract;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes expandContract {
+    0%,
+    100% {
+width: 80px;
+    }
+    50% {
+width: 100px;
+    }
+}
